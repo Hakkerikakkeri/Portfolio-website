@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+    --main: #121212;
+    --secondary: #1d1d1d;
+    --accent: #4289b9;
+    --font: 'Inter', sans-serif;
+    --color: white;
+}
+
+body{
+    text-rendering: optimizeLegibility;
+    background-color: var(--main);
+    font-family: var(--font);
+    padding: 0;
+    margin: 0;
+}
+
+.bx{
+ font-size: 20px;
+}
+
+.sectionone{
+    width: 100%;
+    height: 80vh;
+    font-family: var(--font);
+    background: radial-gradient(74.58% 100% at 50% 100%, #AF65A5 0%, #271E43);
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    
+}
+
+.welcome-text{
+    font-size: 29px;
+    font-weight: 800;
+}
+
+.download-text{
+    font-weight: 600;
+}
+
+.download-button{
+    display: inline;
+    margin: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 0.65rem;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.download-button:hover{
+    background-color: white;
+    color: black;
+    transition: 250ms;
+}
+
+.sectiontwo{
+    width: 100%;
+    height: 100vh;
+    font-family: var(--font);
+    background-color: var(--main);
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-box{
+    display: flex;
+}
+
+.box{
+    margin: 8px;
+    background-color: var(--secondary);
+    box-shadow: 1px 4px 14px 0px rgba(8,8,8,0.75);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+#service-icons{
+    font-size: 40px;
+}
+
+.service-text{
+    font-weight: 600;
+}
+
+.blog-starts{
+    font-size: 23px;
+    color: white;
+    font-family: var(--font);
+    font-weight: 700;
+}
+
+.sectionthree{
+    width: 100%;
+    height: 100vh;
+    font-family: var(--font);
+    background-color: var(--main);
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containertwo{
+    background-color: var(--secondary);
+    box-shadow: 1px 4px 14px 0px rgba(8,8,8,0.75);
+    border-radius: 8px;
+    padding: 4rem;
+}
+
+.my-img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.my-name{
+    font-weight: 800;
+}
+
+.my-career{
+    font-weight: 600;
+}
+
+#icons{
+    font-size: 33px;
+}
+
+.contact-area{
+    margin: 13px;
+}
+
+.my-contact{
+    margin: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    padding: 0.65rem;
+    background: radial-gradient(74.58% 100% at 50% 100%, #AF65A5 0%, #271E43);
+    border-radius: 8px;
+}
+
+.my-contact:hover{
+    transition: 450ms;
+    background: radial-gradient(74.58% 100% at 50% 100%, #1e2d43 0%, #AF65A5);
+}
+
+@media screen and (max-width: 800px) {
+    .download-button{
+        display: flex;
+        justify-content: center;
+    }
+    .service-box{
+        display: inline-block;
+    }
+}
